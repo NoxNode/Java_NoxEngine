@@ -1,5 +1,9 @@
 package com.nox.engine.math2d;
 
+/**
+	This class is a utility class for doing math involving 2d transforms. Transforms represent how an object is depicted by holding their position, scale, and rotation.
+*/
+
 public class Transform2d {
 	private Vector2f pos;
 	private Vector2f scale;

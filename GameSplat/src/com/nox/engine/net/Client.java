@@ -10,6 +10,10 @@ import java.util.ArrayList;
 
 import com.nox.engine.util.Serializer;
 
+/**
+  This class holds the basic functionality of a UDP client.
+*/
+
 public class Client {
     public static final byte[] ServerIP = new byte[] { 127, 0, 0, 1 };
     public static final int PORT = 1332;

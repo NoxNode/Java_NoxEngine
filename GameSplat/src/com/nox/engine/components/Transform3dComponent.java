@@ -5,6 +5,10 @@ import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 import com.nox.engine.math3d.Transform3d;
 
+/**
+	This class is a GameComponent that can be added to GameObjects to give them a standard 3d transform.
+*/
+
 public class Transform3dComponent extends GameComponent {
 	private Transform3d transform;
 

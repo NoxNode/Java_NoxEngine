@@ -1,5 +1,9 @@
 package com.nox.engine.util;
 
+/**
+	This is a utility class for putting numbers in ByteBuffers to be sent in packets over the internet.
+*/
+
 public class Serializer {
 	public static int getIntFromByteBuffer(byte[] buffer, int offset, int nBytes) {
 		int retVal = 0;

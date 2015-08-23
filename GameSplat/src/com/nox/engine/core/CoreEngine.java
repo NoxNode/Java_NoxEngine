@@ -4,6 +4,10 @@ import java.awt.Canvas;
 
 import com.nox.engine.input.Input;
 
+/**
+	This class is a framework for a more specific CoreEngine that manages the window and main update and draw loop.
+*/
+
 public abstract class CoreEngine {
 
 	public abstract boolean isRedrawing();

@@ -2,6 +2,10 @@ package com.nox.engine.input;
 
 import com.nox.engine.util.Time;
 
+/**
+	This class is an abstraction of button input methods. Examples are keys on a keyboard, mouse buttons, touches from touchscreens, and buttons on console controllers.
+*/
+
 public class Button {
 	public static final int UP = 0, PRESSED = 1, PRESSEDUSED = 2, DOWN = 3, RELEASED = 4, RELEASEDUSED = 5;
 	private int id, state;

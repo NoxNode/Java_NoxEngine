@@ -5,6 +5,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+	This class is a utility class for reading from and writing to files using the java.io classes.
+*/
+
 public class FileIO {
 	public static void writeToFile(String fileName, String data) {
 		try {

@@ -8,6 +8,10 @@ import com.nox.engine.input.Input;
 import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is a GameComponent that can be added to GameObjects to give them a standard 2d transform.
+*/
+
 public class Transform2dComponent extends GameComponent {
 	public static final int Transform2dComponentIndex = 0;
 	public static final String tag = "Transform2dComponent";

@@ -2,6 +2,10 @@ package com.nox.engine.gfx2d;
 
 import com.nox.engine.math2d.Transform2d;
 
+/**
+	This class is for holding multiple bitmaps that can be drawn in succession to simulate an animation.
+*/
+
 public class BitmapAnimation {
 	private String tag;
 	private Bitmap[] animationBMPs;
@@ -21,7 +25,7 @@ public class BitmapAnimation {
 	public void draw(Bitmap context, Transform2d transform) {
 		context.drawBMP(animationBMPs[(frames / framesPerBitmap) % animationBMPs.length], transform);
 	}
-	
+
 	public BitmapAnimation xFlippedAnimationBMPs() {
 		Bitmap bmp = new Bitmap(animationBMPs[0].getWidth() * animationBMPs.length, animationBMPs[0].getHeight());
 		BitmapAnimation retBMPAnim = new BitmapAnimation(tag, bmp, animationBMPs[0].getWidth(), framesPerBitmap);

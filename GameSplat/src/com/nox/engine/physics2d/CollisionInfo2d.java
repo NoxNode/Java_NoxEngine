@@ -2,6 +2,10 @@ package com.nox.engine.physics2d;
 
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class holds the basic information of a collision for colliders to react to.
+*/
+
 public class CollisionInfo2d {
 	private final Collider2d collider, other;
 	private final Vector2f centerDist;

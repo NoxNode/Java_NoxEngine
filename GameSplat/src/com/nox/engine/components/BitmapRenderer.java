@@ -7,6 +7,10 @@ import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 import com.nox.engine.math2d.Transform2d;
 
+/**
+	This class is a GameComponent that people can attach to GameObjects that they want to simply render a bitmap for.
+*/
+
 public class BitmapRenderer extends GameComponent {
 	private Bitmap bmp;
 

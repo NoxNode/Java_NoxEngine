@@ -1,5 +1,9 @@
 package com.nox.engine.math2d;
 
+/**
+	This class is a utility class for doing math involving rectangles.
+*/
+
 public class Rectf {
 	public float x, y, width, height;
 

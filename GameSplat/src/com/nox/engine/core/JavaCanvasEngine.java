@@ -17,6 +17,10 @@ import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 import com.nox.engine.util.Time;
 
+/**
+	A more specific CoreEngine for using the java.awt.Canvas for rendering.
+*/
+
 public class JavaCanvasEngine extends CoreEngine implements Runnable {
 	private final Window window;
 	private Canvas canvas;

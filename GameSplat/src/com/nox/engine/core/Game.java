@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 
+/**
+	This class is a framework for all of the game-specific logic to be run.
+*/
+
 public abstract class Game {
 	private CoreEngine engine;
 	private Input input;

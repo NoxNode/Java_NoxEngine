@@ -3,6 +3,10 @@ package com.nox.engine.gfx2d;
 import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is used for turning a bitmap with a specific format into a list of bitmaps holding individual characters so that one can draw strings text to the screen.
+*/
+
 public class Font {
 	public static String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ12345abcdefghijklmnopqrstuvwxyz67890{}[]()<>$*-+=/#_%^@\\&|~?\'\"!,.;: `";
 	private Bitmap fontBMP;

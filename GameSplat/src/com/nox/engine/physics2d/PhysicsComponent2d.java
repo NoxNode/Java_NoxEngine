@@ -4,6 +4,10 @@ import com.nox.engine.core.GameComponent;
 import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 
+/**
+	This class is a GameComponent to be attached to GameObjects that follow the collision rules of a PhysicsEngine2d.
+*/
+
 public class PhysicsComponent2d extends GameComponent {
 	private CollisionAction2d action;
 	private PhysicsEngine2d physicsEngine;

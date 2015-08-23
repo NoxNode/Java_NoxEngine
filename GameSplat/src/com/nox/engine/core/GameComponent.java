@@ -3,6 +3,10 @@ package com.nox.engine.core;
 import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 
+/**
+	This class is a framework for GameComponents. GameComponents provide all of the custom logic for specific GameObjects.
+*/
+
 public abstract class GameComponent {
 	private GameObject parent;
 	private String tag;

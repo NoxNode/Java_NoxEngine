@@ -6,6 +6,10 @@ import java.awt.LayoutManager;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
+/**
+	A more specific Window class for using the Java.awt.Frame class for windowing.
+*/
+
 public class JavaFrameWindow extends Window {
 	private final Frame frame;
 	private boolean isClosing, isActivated, isDeactivated, isIconified, isDeiconified;

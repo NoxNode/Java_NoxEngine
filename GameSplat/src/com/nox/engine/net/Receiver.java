@@ -5,6 +5,10 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.util.ArrayList;
 
+/**
+  This class is used by both the client and the server to block and receive packets in a separate thread. This is to prevent the program from stopping when it's waiting for more data from the server.
+*/
+
 public class Receiver implements Runnable {
 	private Thread receiverThread;
 	private final DatagramSocket socket;

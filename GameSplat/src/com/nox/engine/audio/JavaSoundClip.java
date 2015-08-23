@@ -11,6 +11,10 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.swing.JOptionPane;
 
+/**
+	This class is a more specific Sound class that uses the javax.sound.sampled.Clip class for producing sound.
+*/
+
 public class JavaSoundClip extends Sound {
 	private Clip clip;
 	private AudioInputStream ais;
@@ -76,7 +80,7 @@ public class JavaSoundClip extends Sound {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param count
 	 *            0 means play once, 1 means play twice etc
 	 */

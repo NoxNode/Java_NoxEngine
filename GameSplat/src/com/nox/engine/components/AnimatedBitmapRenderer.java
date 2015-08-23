@@ -10,6 +10,10 @@ import com.nox.engine.gfx2d.BitmapAnimation;
 import com.nox.engine.input.Input;
 import com.nox.engine.math2d.Transform2d;
 
+/**
+	This class is a GameComponent that people can attach to a GameObject if they want that GameObject to have some animations.
+*/
+
 public class AnimatedBitmapRenderer extends GameComponent {
 	private BitmapAnimation[] bitmapAnimations;
 	private int currentAnimationIndex, nextAnimationIndex;

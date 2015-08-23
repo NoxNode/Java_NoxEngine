@@ -9,6 +9,10 @@ import com.nox.engine.input.Input;
 import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is a GameComponent people can attach to GameObjects if they want them to be able to move freely in a 2d space.
+*/
+
 public class FreeMove2d extends GameComponent {
 	private Vector2f velocity;
 	private float speed, maxSpeed;

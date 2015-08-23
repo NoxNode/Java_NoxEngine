@@ -10,6 +10,10 @@ import java.util.ArrayList;
 
 import com.nox.engine.util.Serializer;
 
+/**
+  This class holds the basic functionality of a UDP server.
+*/
+
 public class Server {
 	public static final int PORT = 1331;
 

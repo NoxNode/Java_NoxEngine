@@ -13,6 +13,10 @@ import javax.swing.SwingUtilities;
 
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is a more specific Input class that uses java.awt.event's for getting input.
+*/
+
 public class DesktopInput extends Input implements KeyListener, MouseListener, MouseMotionListener, MouseWheelListener {
 	public static final int leftClick = 0, rightClick = 1, middleClick = 2;
 	private ArrayList<Button> keys;

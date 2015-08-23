@@ -1,5 +1,9 @@
 package com.nox.engine.math3d;
 
+/**
+	This class is a utility class for doing math involving 3d vectors.
+*/
+
 public class Vector3f {
 	public float x;
 	public float y;

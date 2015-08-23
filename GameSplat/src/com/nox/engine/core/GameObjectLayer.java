@@ -6,6 +6,10 @@ import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 import com.nox.engine.physics.PhysicsEngine;
 
+/**
+	GameObjectLayers are basically another abstraction layer between GameObject and Scene. They are useful if you want to have split screens in the same scene or anything within the same scene that behave differently.
+*/
+
 public class GameObjectLayer {
 	private Scene scene;
 	private String tag;

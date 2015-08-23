@@ -2,6 +2,10 @@ package com.nox.engine.input;
 
 import com.nox.engine.core.Game;
 
+/**
+	This class is a framework for handling input holding placeholders for the basic functionality.
+*/
+
 public abstract class Input {
 	public static final long maxTapTimeDownInMillis = 250, maxDoubleTapUpTimeInMillis = 250;
 	public static final float minScrollDist = 25;

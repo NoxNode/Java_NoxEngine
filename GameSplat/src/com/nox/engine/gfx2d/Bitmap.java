@@ -10,6 +10,10 @@ import javax.swing.JOptionPane;
 import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 
+/**
+  This class is for holding rgb bitmaps for drawing.
+*/
+
 public class Bitmap {
     private int width, height;
     private int[] pixels;

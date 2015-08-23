@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 import com.nox.engine.physics.PhysicsEngine;
 
+/**
+	This class is the main physics manager. Each update it goes through all the 2d PhysicsComponents in the current GameObjectLayer and performs any necessary CollisionActions
+*/
+
 public class PhysicsEngine2d extends PhysicsEngine {
 	private ArrayList<PhysicsComponent2d> physicsComponents;
 

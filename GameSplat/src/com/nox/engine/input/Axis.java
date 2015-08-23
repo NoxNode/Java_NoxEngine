@@ -1,5 +1,9 @@
 package com.nox.engine.input;
 
+/**
+	This class is an abstraction of input methods that can be stored in a float such as joy-sticks.
+*/
+
 public class Axis {
 	private float value;
 	private boolean valueUsed = true;

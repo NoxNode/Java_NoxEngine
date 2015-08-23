@@ -4,6 +4,10 @@ import com.nox.engine.math2d.Rectf;
 import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is a more specific collider for rectangle to rectangle collision.
+*/
+
 public class RectCollider extends Collider2d {
 	private final Rectf rect;
 	private final Transform2d transform;

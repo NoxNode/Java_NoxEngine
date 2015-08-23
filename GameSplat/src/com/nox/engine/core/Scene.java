@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 
+/**
+	Scenes are basically different screens of a game. A common setup is to have a menu scene, loading scene, and main game scene.
+*/
+
 public abstract class Scene {
 	private Game game;
 	private String tag;

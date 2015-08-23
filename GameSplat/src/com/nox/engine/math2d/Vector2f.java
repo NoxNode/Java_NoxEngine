@@ -1,5 +1,9 @@
 package com.nox.engine.math2d;
 
+/**
+	This class is a utility class for doing math involving 2d vectors.
+*/
+
 public class Vector2f {
 	public float x;
 	public float y;

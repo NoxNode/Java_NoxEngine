@@ -3,6 +3,10 @@ package com.nox.engine.core;
 import java.awt.Canvas;
 import java.awt.LayoutManager;
 
+/**
+	This class is a framework for windowing that holds placeholders for the basic functionality of a window.
+*/
+
 public abstract class Window {
 	public abstract boolean isClosing();
 

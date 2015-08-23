@@ -2,6 +2,10 @@ package com.nox.engine.input;
 
 import com.nox.engine.math2d.Vector2f;
 
+/**
+	This class is an abstraction of pointer input methods. Examples are mouses for desktops or touches for touchscreens.
+*/
+
 public class Pointer {
 	private Vector2f pos;
 	private final Button[] buttons;

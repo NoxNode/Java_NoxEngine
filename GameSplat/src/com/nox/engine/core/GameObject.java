@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import com.nox.engine.gfx2d.Bitmap;
 import com.nox.engine.input.Input;
 
+/**
+	This class holds all of the code for a GameObject. GameObjects are basically the most basic unit that makes up an object in a game. They are basically containers for GameComponents, which actually hold the custom logic for each virtual object in a game.
+*/
+
 public class GameObject {
 	private GameObjectLayer layer;
 	private GameObject parent;

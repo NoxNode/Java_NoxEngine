@@ -1,5 +1,8 @@
 package com.nox.engine.math3d;
 
+/**
+	This class is a utility class for doing math involving 3d transforms. Transforms represent how an object is depicted by holding their position, scale, and rotation.
+*/
 
 public class Transform3d {
 	private Vector3f pos;

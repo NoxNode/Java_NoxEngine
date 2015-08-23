@@ -14,8 +14,11 @@ import com.nox.engine.math2d.Transform2d;
 import com.nox.engine.math2d.Vector2f;
 import com.nox.engine.physics.PhysicsEngine;
 
-public class GameSplat extends Game {
+/**
+	This an example class that is a more specific Game that I called GameSplat for some reason. It demonstrates the core engine and bitmap animations.
+*/
 
+public class GameSplat extends Game {
 	@Override
 	public void initInput() {
 		Input input = new DesktopInput();
@@ -37,7 +40,7 @@ public class GameSplat extends Game {
 				GameObjectLayer objLayer = new GameObjectLayer("objLayer", new PhysicsEngine() {
 					@Override
 					public void update() {
-						
+
 					}
 				});
 				GameObject obj = new GameObject("obj");
@@ -59,7 +62,7 @@ public class GameSplat extends Game {
 					boolean facingLeft = false;
 					float scale = 3;
 					Transform2d transform = new Transform2d(new Vector2f(0, 284), new Vector2f(scale, scale), 0);
-					
+
 					@Override
 					public void input(Input input) {
 						final float speed = 2.5f;
@@ -104,7 +107,7 @@ public class GameSplat extends Game {
 							left_runAnim.restart();
 							left_rightAttackAnim.restart();
 							left_idleAnim.restart();
-							
+
 							right_idleAnim.refresh();
 							right_idleAnim.draw(context, transform);
 							break;
@@ -114,7 +117,7 @@ public class GameSplat extends Game {
 							left_runAnim.restart();
 							left_rightAttackAnim.restart();
 							left_idleAnim.restart();
-							
+
 							right_rightAttackAnim.refresh();
 							right_rightAttackAnim.draw(context, transform);
 							break;
@@ -124,7 +127,7 @@ public class GameSplat extends Game {
 							left_runAnim.restart();
 							left_rightAttackAnim.restart();
 							left_idleAnim.restart();
-							
+
 							right_runAnim.refresh();
 							right_runAnim.draw(context, transform);
 							break;
@@ -134,7 +137,7 @@ public class GameSplat extends Game {
 							right_runAnim.restart();
 							left_rightAttackAnim.restart();
 							left_idleAnim.restart();
-							
+
 							left_runAnim.refresh();
 							left_runAnim.draw(context, transform);
 							break;
@@ -144,7 +147,7 @@ public class GameSplat extends Game {
 							right_runAnim.restart();
 							left_runAnim.restart();
 							left_idleAnim.restart();
-							
+
 							left_rightAttackAnim.refresh();
 							left_rightAttackAnim.draw(context, transform);
 							break;
@@ -154,7 +157,7 @@ public class GameSplat extends Game {
 							right_runAnim.restart();
 							left_runAnim.restart();
 							left_rightAttackAnim.restart();
-							
+
 							left_idleAnim.refresh();
 							left_idleAnim.draw(context, transform);
 						}
@@ -165,7 +168,7 @@ public class GameSplat extends Game {
 				return scene;
 			}
 		};
-		
+
 		this.addSceneLoader(sceneLoader);
 		this.loadScene(0);
 		this.setDrawingScene(0);
