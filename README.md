@@ -1,3 +1,3 @@
 # Java_NoxEngine
 
-A game engine made in Java.
+A software rendered game engine made in Java.
